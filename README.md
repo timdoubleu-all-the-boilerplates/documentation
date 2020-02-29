@@ -7,33 +7,51 @@
 3. [Interests](#intrests)
 
 
-
-
-
-
 <a name="about"></a>
 ## What is this organization?
 
-This organization will serve as a place to organize all of the boilerplate code that I've setup as [template repositories](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/). I didn't want to litter my regular profile with a bunch of template repositories as I wanted it to have active projects on there. I tried setting up a single boilerplate repo that simply had branches , that's when I read about [Github Organization's for grouping](https://stackoverflow.com/questions/20908994/grouping-repos-on-github) related repo's and now here we are.
+This organization will serve as a place to organize all of the boilerplate code that I've setup as [template repositories](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/). I didn't want to litter my regular profile with a bunch of template repositories as I wanted it to have active projects on there. I tried setting up a single boilerplate repo that used branches but that got messy very quickly, that's when I read about [Github Organization's for grouping related repo's ](https://stackoverflow.com/questions/20908994/grouping-repos-on-github) and now here we are.
 
 
 
 <a name="repos"></a>
 ## Current Planned Template Setups:
 
+### Frontend
+
 1. frontend-static-seo-site
-  - Setup something that would allow you to do custom html as you want but have partials, etc.
-  - https://www.sitepoint.com/bundle-static-site-webpack/
-  - https://medium.com/@ivarprudnikov/static-website-multiple-html-pages-using-webpack-3bdb7accffad
+    - Very simple setup, maybe not even using webpack
+    - Setup something that would allow you to do customize html (eg. partials).
+    - https://www.sitepoint.com/bundle-static-site-webpack/
+    - https://github.com/h5bp/html5-boilerplate
+    - https://medium.com/@ivarprudnikov/static-website-multiple-html-pages-using-webpack-3bdb7accffad
+    - https://mozilla.github.io/nunjucks/templating.html#template-inheritance
 2. frontend-plain-spa-app
 3. frontend-react-app
-  - Another example: https://github.com/manuelbieh/react-ssr-setup
-4. front-react-ssr-app
-  - https://github.com/manuelbieh/react-ssr-setup
+4. frontend-react-ssr-app
+    - https://github.com/manuelbieh/react-ssr-setup
 5. php-plain-bootstrap
 
+### Backend
 
 
+### Tooling, etc.
+
+1. [Puppeteer Scripts](https://developers.google.com/web/tools/puppeteer)
+1. [Github Templates](https://help.github.com/en/github/building-a-strong-community/using-templates-to-encourage-useful-issues-and-pull-requests)
+1. [Building Wikis](https://help.github.com/en/github/building-a-strong-community/documenting-your-project-with-wikis)
+
+
+
+### Ideas, (need more thought)
+1. Plain Node
+  - https://github.com/tvvignesh/node-skeleton
+1. A PWA application plugged into using local storage
+1. Some kind of style guide that would come with boilerplates
+1. Deployment scripts, handling dist folders
+  - https://gist.github.com/cobyism/4730490
+1. ESlint and Prettier setups for projects w/ vscode, other editors?
+1. Make an npm module, php package, pip package, have a template for publishing one.
 
 
 
@@ -65,18 +83,20 @@ This is a list of all the different technological goals I'm looking to achieve w
     - https://postcss.org/
 
 
-  browser targets added
 
 ### JS Compilation
   - Browser targets added
+  - ES6 and beyond compilation
   - Source Maps
+    - https://developers.google.com/web/tools/chrome-devtools/javascript/source-maps
 
 
+### Miscellaneous Boilerplates to work on:
+  - UI toolkit
+  - API tooling
+  - Doc generation
+  - Marketing site
 
-###
-
-
-###
 
 <a name="intrests"></a>
 ## Interests
