@@ -52,7 +52,11 @@ This organization will serve as a place to organize all of the boilerplate code 
   - https://gist.github.com/cobyism/4730490
 1. ESlint and Prettier setups for projects w/ vscode, other editors?
 1. Make an npm module, php package, pip package, have a template for publishing one.
-
+1. Site Customizer Template:
+  - Build a template for customizing an exisitng website you don't have any control over. Something that allows modularity/breaking up css/js files for any large projects.
+  - You can achieve this with injecting scripts/css into a site in your own browser with something like [Tampermonkey](https://www.tampermonkey.net/).
+  - https://www.google.com/search?q=tamper+monkey+customize+style+sheet
+  - https://stackoverflow.com/questions/19385698/how-to-change-a-class-css-with-a-greasemonkey-tampermonkey-script/19392142
 
 
 <a name="aspects"></a>
